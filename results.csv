@@ -1,0 +1,6 @@
+,Date,Model,Observations,Loss,Accuracy,Hidden layers,Input Features,Output Neurons,Neurons in Hidden Layers1,Neurons in Hidden Layers2,Epochs,Activation Hidden layer 1,Activation Hidden layer 2,Activation Output layer 1,loss,optimizer,metrics
+0,2022-08-27,0,"Original model, geometric mean for number of layers",0.5610794425010681,0.7286297082901001,2,116,1,11.0,4.0,50,relu,relu,sigmoid,binary_crossentropy,adam,accuracy
+,Date,Model,Observations,Loss,Accuracy,Hidden layers,Input Features,Output Neurons,Neurons in Hidden Layers1,Neurons in Hidden Layers2,Epochs,Activation Hidden layer 1,Activation Hidden layer 2,Activation Output layer 1,loss,optimizer,metrics
+0,2022-08-27,1,It uses aritmetic mean to define number of nodes,0.5532958507537842,0.7342274188995361,2,116,1,58.0,29.0,50,relu,relu,sigmoid,binary_crossentropy,adam,accuracy
+,Date,Model,Observations,Loss,Accuracy,Hidden layers,Input Features,Output Neurons,Neurons in Hidden Layers1,Neurons in Hidden Layers2,Epochs,Activation Hidden layer 1,Activation Hidden layer 2,Activation Output layer 1,loss,optimizer,metrics,Neurons in Hidden Layers3,Activation Hidden layer 3
+0,2022-08-27,2,"Adding a hidden layer, increasing epochs",0.5647941827774048,0.7345772385597229,3,116,1,33.0,18.0,100,relu,relu,sigmoid,binary_crossentropy,adam,accuracy,15.0,relu
